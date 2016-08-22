@@ -1,0 +1,155 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+body{
+	background-color:black;
+	color: white;
+}
+#main {
+width:400px;
+margin:50px 0px 0px 200px;
+font-family:raleway;
+color: #fff;
+float: left;
+}
+
+.public_box{
+width:400px;
+margin:70px 150px 0px 100px;
+float: right;
+color: #fff;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+border-left: 1px solid #fff;
+border-right: 1px solid #fff;
+overflow:scroll;
+height: 400px;
+}
+
+.public_box ul {
+ list-style-type: none;
+ padding: 0;
+ background:#ccc;
+
+}
+.public_box ul li {
+	text-align:center;
+	margin-bottom: 7px;
+	color:black;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+.public_box ul a {
+ 
+ text-decoration: none;
+ color: black;
+ padding: 3px;
+ display: list-item;
+ 
+}
+.public_box ul a:hover {
+ text-decoration: none;
+ background-color: black;
+ color: #fff;
+}
+.public_survey{
+	width:400px;
+margin:70px 150px -50px 100px;
+float: right;
+	background: #000000;
+	color: #fff;
+	text-align: center;
+	text-decoration: underline;
+}
+span {
+color:red
+}
+h2 {
+background-color:black;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px;
+margin-bottom: 40px;
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+border-radius: 5px;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit] {
+width:105%;
+background-color:#000000;
+color:#fff;
+border:2px solid #ffffff;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+margin-top: 15px;
+}
+input[type=submit]:hover {
+color: #000000;
+background-color: #fff;
+border:2px solid #000000;
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+.btn {
+   float: center;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  margin-left: 110px;
+  font-size: 20px;
+  background: #6f767a;
+  padding: 10px 18px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #050e14;
+  text-decoration: none;
+}

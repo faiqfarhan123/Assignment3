@@ -1,0 +1,14 @@
+My code has following features:
+
+1)	Authorize User -> Login, Sign Up, if user has link to private survey, redirect him to login page and then redirect to previous page
+
+2)	Main Page contains Login and signup and all public surveys
+
+3) Each survey has unique shareable link, name and visibilty,.i.e private or public
+
+4) User can create surveys only after authentication
+
+5) Dynamic form for creating surveys, only text boxes
+
+6) Github Link: https://github.com/faiqfarhan123/Assignment3
+
